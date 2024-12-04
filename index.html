@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to LearnHub</h1>
+        <nav>
+            <a href="#courses">Courses</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="course">
+            <h3>history</h3>
+            <p>Learn how the humanity is evolved from past.</p>
+        </div>
+        <div class="course">
+            <h3>Economics</h3>
+            <p>learn how the monetary system works.</p>
+        </div>
+    </section>
+    <footer>
+        <p>let begin the world</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="response-message" style="color: green; display: none;">Thank you for your message!</p>
+</section>
